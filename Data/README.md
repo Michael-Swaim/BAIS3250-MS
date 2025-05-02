@@ -2,6 +2,8 @@
 
 Project Description - describe each file, 1 to 2 sentance description
 
+| Plugin | README |
+| ------ | ------ |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |
 | GitHub | [plugins/github/README.md][PlGh] |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
