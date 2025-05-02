@@ -1,6 +1,14 @@
 # BAIS3250-MS
 Michael Swaim & Brady Hunter
 
+## Table of Contents
+| Name | File/Folder | Description |
+| ----- | ----- | ----- |
+| Data | Folder | This folder contains the actual data and code relating to this project |
+| cleaned_sp500_data.csv | File | Cleaned and merged data set containted in the Data folder |
+| Final Project_Full.ipynb | File | The Juypter Notebook that contains the code containing our analysis |
+| Report | Sub-Folder | This subfolder within the Data folder contains the written report of the project |
+
 ## Project Description
 This project is a combination of different analysis techniques to evaluate the S&P 500 stock index
 
