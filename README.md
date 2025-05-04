@@ -4,26 +4,26 @@ Michael Swaim & Brady Hunter
 ## Table of Contents
 | Name | File/Folder | Description |
 | ----- | ----- | ----- |
-| Data | Folder | This folder contains the actual data and code relating to this project |
-| cleaned_sp500_data.csv | File | Cleaned and merged data set containted in the Data folder |
-| Final Project_Full.ipynb | File | The Juypter Notebook that contains the code containing our analysis |
-| Report | Sub-Folder | This subfolder within the Data folder contains the written report of the project |
+| Data | Folder | Contains all data files and relevant code for this project |
+| cleaned_sp500_data.csv | File | Final cleaned and merged dataset located within the Data folder |
+| Final Project_Full.ipynb | File | Jupyter Notebook containing all analysis and code |
+| Report | Sub-Folder | A subfolder within the Data folder that holds the written report |
 
 ## Project Description
-This project is a combination of different analysis techniques to evaluate the S&P 500 stock index
+This project applies various data analysis techniques to examine and interpret trends within the S&P 500 index.
 
-Regarding differnt files, most files will be placed in the Data folder as we only have 2 main files regarding data
-- cleaned_sp500_data.csv (the actual cleaned and merged data for the S&P 500 stock data)
-- Final Project_Full.ipynb (the Juypter Notebook that contains the code containing our analysis)
+Most files are stored within the Data folder, including the two key data-related files:
+- cleaned_sp500_data.csv (the finalized, cleaned dataset of S&P 500 stock data)
+- Final Project_Full.ipynb (the Jupyter Notebook containing the full analysis)
 
-There will be a different subfile called Report that will contain the written report of our analysis
+A separate subfolder called Report contains the written summary of our analysis.
 
 ## Research Questions
 
-This project aims to find the answers to multiple descriptive questions regarding the S&P 500. The questions are as followed:
-- How do average closing prices vary across different sectors in the S&P 500?
-- Do specific sectors exhibit stronger performance trends?
-- How does trading volume relate to stock price across different sectors?
+This project seeks to answer several descriptive questions related to the S&P 500. The questions include:
+- How do average closing prices differ across various sectors in the S&P 500?
+- Are certain sectors consistently stronger in performance?
+- What is the relationship between trading volume and stock prices across sectors?
 - Time Series question...
 
 ## Data Dictionary
@@ -31,17 +31,16 @@ This project aims to find the answers to multiple descriptive questions regardin
 | ------ | ------ | ----- |
 | Symbol | Text | Stock Ticker Symbol |
 | Company | Text | Company Name |
-| Sector | Text | Business Sector (Technology, Healthcare, etc.) |
-| Location | Text | Company Location (U.S., Non-U.S.) |
-| Date_Scraped | Date | Highest price of the stock on a given day |
-| High | Numeric | Highest price of the stock on a given day |
-| Low | Numeric | Lowest price of the stock on a given day | 
-| Open | Numeric | Stocks opening price on a given day |
-| Close | Numeric | Stocks closing price on a given day |
-| Volume | Numeric | Number of shares traded on a given day| 
-
+| Sector | Text | Industry Sector (Technology, Healthcare, etc.) |
+| Location | Text | Company Headquarters (U.S. or Non-U.S.) |
+| Date_Scraped | Date | Date the data was collected |
+| High | Numeric | Highest stock price on a given day |
+| Low | Numeric | Lowest stock price on a given day | 
+| Open | Numeric | Opening stock price for the day |
+| Close | Numeric | Closing stock price for the day |
+| Volume | Numeric | Number of shares traded on a given day |
 
 ## References and Initial Datasets
-These datasets and websites were scraped, used, cleaned, and then merged together to create our final cleaned dataset in the Data folder
-- [Yahoo Finance](https://finance.yahoo.com/quote/%5EGSPC/history/) - Data directly pulled from Yahoo Finance
-- [Wikipedia S&P 500](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies ) - Data scraped from multiple pages of Wikipedia
+These datasets and sources were scraped, cleaned, and merged to form the final dataset in the Data folder:
+- [Yahoo Finance](https://finance.yahoo.com/quote/%5EGSPC/history/) - Historical stock data obtained from Yahoo Finance
+- [Wikipedia S&P 500](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) - Sector and company data gathered from Wikipedia
