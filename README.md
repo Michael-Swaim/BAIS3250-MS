@@ -21,10 +21,9 @@ A separate subfolder called Report contains the written summary of our analysis.
 ## Research Questions
 
 This project seeks to answer several descriptive questions related to the S&P 500. The questions include:
-- How do average closing prices differ across various sectors in the S&P 500?
-- Are certain sectors consistently stronger in performance?
-- What is the relationship between trading volume and stock prices across sectors?
-- Time Series question...
+- Does industry sector impact stock price?
+- Are some sectors inherently more volatile or more heavily traded?
+- Can we identify patterns or trends that suggest sectoral influence on stock prices?
 
 ## Data Dictionary
 | Field Name | Data Type | Description | 
