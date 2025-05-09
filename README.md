@@ -8,6 +8,7 @@ Michael Swaim & Brady Hunter
 | cleaned_sp500_data.csv | File | Final cleaned and merged dataset located within the Data folder |
 | Final Project_Full.ipynb | File | Jupyter Notebook containing all analysis and code |
 | Report | Sub-Folder | A subfolder within the Data folder that holds the written report |
+| Final Report | File | The finalized written report containing our analysis |
 
 ## Project Description
 This project applies various data analysis techniques to examine and interpret trends within the S&P 500 index.
